@@ -231,6 +231,12 @@ header {
     background-repeat: no-repeat;
     background-position: 90% center;
     background-size: 15rem;
+    transition-property: transform background-size;
+    transition-duration: .3s;
+}
+.modelo:hover {
+    transform: scale(1.1);
+    background-size: 30rem;
 }
 @media (min-width: 992px) { 
     .modelo {
